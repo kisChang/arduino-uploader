@@ -347,6 +347,14 @@ public class ArduinoSketchUploader<E extends ISerialPortStream> {
 		NanoR3.setWriteTimeout(1000);
 		listArduino.add(NanoR3);
 
+		Arduino NanoBLE = new Arduino(ArduinoModel.NanoBLE.toString(), McuIdentifier.AtMega328P, 115200, Protocol.Stk500v1);
+		NanoBLE.setPreOpenResetBehavior("DTR;true");
+		NanoBLE.setCloseResetBehavior("DTR-RTS;50;250;false");
+		NanoBLE.setSleepAfterOpen(250);
+		NanoBLE.setReadTimeout(1000);
+		NanoBLE.setWriteTimeout(1000);
+		listArduino.add(NanoBLE);
+
 		Arduino UnoR3 = new Arduino(ArduinoModel.UnoR3.toString(), McuIdentifier.AtMega328P, 115200, Protocol.Stk500v1);
 		UnoR3.setPreOpenResetBehavior("DTR;true");
 		UnoR3.setCloseResetBehavior("DTR-RTS;50;250;false");

@@ -7,6 +7,7 @@ public enum ArduinoModel {
     Micro,
     NanoR2,
     NanoR3,
+    NanoBLE,
     UnoR3;
 
     public static final int SIZE = Integer.SIZE;
