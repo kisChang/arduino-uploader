@@ -6,11 +6,13 @@
 
     <groupId>io.github.kischang.arduino</groupId>
     <artifactId>arduino-uploader</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.2-SNAPSHOT</version>
 
     <description>
         Arduino 固件刷写工具，使用原生java编写
-        发布命令：mvn clean deploy
+        发布命令：
+        mvn clean deploy -Dmaven.test.skip=true
+        mvn clean assembly:assembly -Dmaven.test.skip=true
     </description>
 
     <dependencies>

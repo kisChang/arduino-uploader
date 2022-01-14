@@ -3,7 +3,7 @@ package io.github.kischang.arduino.uploader.ArduinoUploader;
 import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
 
 public class ArduinoSketchUploaderOptions {
-    private String FileName;
+    private String FileName = null;
 
     public final String getFileName() {
         return FileName;
@@ -11,6 +11,16 @@ public class ArduinoSketchUploaderOptions {
 
     public final void setFileName(String value) {
         FileName = value;
+    }
+
+    private Iterable<String> hexFileContents;
+
+    public Iterable<String> getHexFileContents() {
+        return hexFileContents;
+    }
+
+    public void setHexFileContents(Iterable<String> hexFileContents) {
+        this.hexFileContents = hexFileContents;
     }
 
     private String PortName;

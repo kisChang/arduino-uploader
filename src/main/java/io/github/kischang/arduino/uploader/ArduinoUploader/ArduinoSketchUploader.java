@@ -11,6 +11,7 @@ import io.github.kischang.arduino.uploader.CSharpStyle.IProgress;
 import IntelHexFormatReader.*;
 import IntelHexFormatReader.Model.*;
 import IntelHexFormatReader.Utils.FileLineIterable;
+import io.github.kischang.arduino.uploader.HexFileUtils;
 import io.github.kischang.arduino.uploader.UsbSerialHelper.ISerialPortStream;
 import csharpstyle.StringHelper;
 import org.slf4j.Logger;
@@ -98,21 +99,12 @@ public class ArduinoSketchUploader<E extends ISerialPortStream> {
 		return inferedClass;
 	}
 
-	public final void UploadSketch(String[] portNames) {
+	public final void UploadSketch(String[] portNames) throws IOException {
 		String hexFileName = _options.getFileName();
-		Iterable<String> hexFileContents = null;
-		if (getLogger() != null)
-			getLogger().info("Starting upload process for file '${}'.", hexFileName);
-		try {
-			hexFileContents = new FileLineIterable(hexFileName);
-		} catch (RuntimeException ex) {
-			if (getLogger() != null)
-				getLogger().error(ex.getMessage(), ex);
-			throw ex;
-		} catch (IOException e) {
-			e.printStackTrace();
+		Iterable<String> hexFileContents = _options.getHexFileContents();
+		if (hexFileName != null) {
+			hexFileContents = HexFileUtils.fileToHexContents(hexFileName);
 		}
-
 		UploadSketch(hexFileContents, portNames);
 	}
 
