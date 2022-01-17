@@ -3,8 +3,8 @@ package com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgramme
 import com.github.kischang.arduino.uploader.ArduinoUploader.ArduinoSketchUploader;
 import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.SerialPortConfig;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.ISerialPortStream;
-import io.github.kischang.arduino.uploader.ArduinoUploader.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
 import org.slf4j.Logger;
 
 public class ResetThroughTogglingDtrRtsBehavior implements IResetBehavior {

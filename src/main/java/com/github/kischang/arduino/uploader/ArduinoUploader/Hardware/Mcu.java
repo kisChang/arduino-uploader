@@ -2,7 +2,7 @@ package com.github.kischang.arduino.uploader.ArduinoUploader.Hardware;
 
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.IMemory;
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.MemoryType;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
 
 import java.util.*;
 

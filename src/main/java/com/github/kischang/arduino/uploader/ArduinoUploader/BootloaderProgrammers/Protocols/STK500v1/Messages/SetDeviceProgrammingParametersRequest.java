@@ -4,9 +4,9 @@ import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammer
 import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.STK500v1.Constants;
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.IMcu;
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.IMemory;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.STK500v1.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.STK500v1.*;
 
 public class SetDeviceProgrammingParametersRequest extends Request {
     public SetDeviceProgrammingParametersRequest(IMcu mcu) {

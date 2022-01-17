@@ -12,7 +12,7 @@ import java.util.concurrent.TimeoutException;
 import com.github.kischang.arduino.uploader.ArduinoUploader.ArduinoSketchUploader;
 import com.github.kischang.arduino.uploader.CSharpStyle.Func0;
 import com.github.kischang.arduino.uploader.CSharpStyle.Func3;
-import io.github.kischang.arduino.uploader.ArduinoUploader.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.*;
 import org.slf4j.Logger;
 
 public final class WaitHelper {

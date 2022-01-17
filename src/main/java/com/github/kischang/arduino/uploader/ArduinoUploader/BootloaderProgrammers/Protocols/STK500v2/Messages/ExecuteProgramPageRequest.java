@@ -2,8 +2,8 @@ package com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgramme
 
 import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.Request;
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.IMemory;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
 
 public class ExecuteProgramPageRequest extends Request {
 

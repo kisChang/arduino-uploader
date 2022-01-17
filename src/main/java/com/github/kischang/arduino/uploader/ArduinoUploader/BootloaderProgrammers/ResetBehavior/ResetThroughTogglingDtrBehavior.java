@@ -4,7 +4,7 @@ package com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgramme
 
 import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.SerialPortConfig;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.ISerialPortStream;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
 
 public class ResetThroughTogglingDtrBehavior implements IResetBehavior {
 	private boolean Toggle;

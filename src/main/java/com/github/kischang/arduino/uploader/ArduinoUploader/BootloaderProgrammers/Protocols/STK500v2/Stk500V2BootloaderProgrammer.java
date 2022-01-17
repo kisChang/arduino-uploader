@@ -9,12 +9,12 @@ import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.IMcu;
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.IMemory;
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.MemoryType;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.ISerialPortStream;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.STK500v2.Messages.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.STK500v2.Messages.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
 
 import java.util.*;
 

@@ -1,7 +1,7 @@
 package com.github.kischang.arduino.uploader.ArduinoUploader;
 
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.ArduinoModel;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
 
 public class ArduinoSketchUploaderOptions {
     private String FileName = null;

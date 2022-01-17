@@ -10,8 +10,8 @@ import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammer
 import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.WaitHelper;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.ISerialPortStream;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.SerialStreamHelper;
-import io.github.kischang.arduino.uploader.ArduinoUploader.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.*;
 import org.slf4j.Logger;
 
 public class ResetThrough1200BpsBehavior<E extends ISerialPortStream> implements IResetBehavior {

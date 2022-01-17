@@ -3,7 +3,7 @@ package com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgramme
 import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.IMemory;
 import com.github.kischang.arduino.uploader.CSharpStyle.IProgress;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.ISerialPortStream;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.Memory.*;
 import IntelHexFormatReader.Model.*;
 
 public interface IBootloaderProgrammer<E extends ISerialPortStream> {

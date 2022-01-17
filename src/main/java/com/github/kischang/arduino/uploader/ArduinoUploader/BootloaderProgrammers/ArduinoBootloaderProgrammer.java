@@ -10,9 +10,9 @@ import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.IMcu;
 import com.github.kischang.arduino.uploader.CSharpStyle.BitConverter;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.ISerialPortStream;
 import com.github.kischang.arduino.uploader.UsbSerialHelper.SerialStreamHelper;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
-import io.github.kischang.arduino.uploader.ArduinoUploader.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.Protocols.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.Hardware.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.*;
 
 public abstract class ArduinoBootloaderProgrammer<E extends ISerialPortStream> extends BootloaderProgrammer<E> {
 	protected SerialPortConfig SerialPortConfig;

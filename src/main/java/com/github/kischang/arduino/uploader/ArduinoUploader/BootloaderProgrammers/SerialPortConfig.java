@@ -1,7 +1,7 @@
 package com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers;
 
 import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.ResetBehavior.IResetBehavior;
-import io.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.ResetBehavior.*;
+import com.github.kischang.arduino.uploader.ArduinoUploader.BootloaderProgrammers.ResetBehavior.*;
 
 public class SerialPortConfig {
     private static final int DefaultTimeout = 1000;
